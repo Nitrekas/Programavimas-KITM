@@ -19,12 +19,16 @@ body{
     border: 1px solid #48CAE4;
     background-color: #51c6de;
     text-align: center;
-    padding-bottom: 11%;
+    padding-bottom: 15%;
 }
-nav{
+.nav{
+    position: fixed;
+    top: 0;
+    overflow: hidden;
     border: none;
     background-color: #0096C7;
     padding: 20px 0px 20px 6px;
+    width: 100%;
 }
 .Card > p{
     text-align: left;
