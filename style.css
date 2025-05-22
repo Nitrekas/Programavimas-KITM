@@ -17,7 +17,7 @@ body{
 /*Containers*/
 .MainContainer{
     border: 1px solid #48CAE4;
-    background-color: #89c6d2;
+    background-color: #afdbe3;
     text-align: center;
     padding-bottom: 15%;
 }
@@ -26,32 +26,29 @@ body{
     top: 0;
     overflow: hidden;
     border: none;
-    background-color: #0096C7;
+    background-color: #0084b0;
     padding: 20px 0px 20px 6px;
     width: 100%;
 }
 .Card > p{
-    text-align: left;
-    margin-left: 10px;
-}
-.Card:hover{
-    transition: 0.35s;
-    background-color: rgba(255, 255, 255, 0.129);
-    border-radius: 20px;
-}
-#Card1{
-    grid-column: 1 / span 2;
+    text-align: center;
 }
 .CardContainer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 100px;
+    grid-template-columns: 0.42fr 0.2fr;
     margin-bottom: 25px;
+    place-content: center;
+}
+.Card{
+    border: 2px solid rgb(146, 146, 146);
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.153);
+    margin: 25px;
 }
 footer{
     padding: 30px 0px 30px 0px;
-    border: 1px solid #0077B6;
-    background-color:#0077B6 ;
+    border: 1px solid #003654;
+    background-color:#00659b ;
     text-align: center;
 }
 .CardFull{
@@ -96,7 +93,22 @@ nav > p, h3{
     text-shadow: 0px 0px 5px white;
 }
 .Title{
-    padding: 8% 0px 0px 0px;
+    padding: 8% 0px 5px 0px;
+    margin: auto auto 60px auto;
+    border-bottom: 1px solid black;
+    width: 500px;
+}
+.Title2{
+    padding: 0px 0px 5px 0px;
+    margin: 50px auto 60px auto;
+    border-bottom: 1px solid black;
+    width: 500px;
+}
+.Title3{
+    padding: 0px 0px 5px 0px;
+    margin: 50px auto 60px auto;
+    border-bottom: 1px solid black;
+    width: 750px;
 }
 #Current{
     color: white;
@@ -183,3 +195,8 @@ p > span{
 .imgtop{
     width: 30%;
 }
+.Card > img{
+    align-items: end;
+}
+
+
