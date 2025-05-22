@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    background-color: #CAF0F8;
+}
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #020346;
+}
+/*transition*/
+body{
+    animation: intro 0.5s normal;
+}
+@keyframes intro{
+    0% {filter: opacity(0);}
+    100% {filter: opacity(1);}
+}
+/*Containers*/
+.MainContainer{
+    border: 1px solid #48CAE4;
+    background-color: #afdbe3;
+    text-align: center;
+    padding-bottom: 15%;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    border: none;
+    background-color: #0084b0;
+    padding: 20px 0px 20px 6px;
+    width: 100%;
+}
+.Card > p{
+    text-align: center;
+}
+.CardContainer{
+    display: grid;
+    grid-template-columns: 0.42fr 0.2fr;
+    margin-bottom: 25px;
+    place-content: center;
+}
+.Card{
+    border: 2px solid rgb(146, 146, 146);
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.153);
+    margin: 25px;
+}
+footer{
+    padding: 30px 0px 30px 0px;
+    border: 1px solid #003654;
+    background-color:#00659b ;
+    text-align: center;
+}
+.CardFull{
+    background-color: #00B4D8;
+}
+.CardContainerFull{
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
+    margin-bottom: 25px;
+    text-align: left;
+}
+.linkHid:link{
+    color: #020346;
+    text-decoration: none;
+}
+/*Text*/
+.KITM{
+    background-color: #ADE8F4;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #ccf2ff;
+    max-width: fit-content;
+    padding: 12px 12px;
+    margin-right: 25px;
+}
+nav > p, h3{
+    display: inline;
+}
+.navText:link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.674);
+    margin-right: 10px;
+}
+.navText:visited{
+    color: white;
+}
+.navText:hover{
+    transition: 0.35s;
+    color: white;
+}
+.navText:active{
+    transition: 0s;
+    text-shadow: 0px 0px 5px white;
+}
+.Title{
+    padding: 8% 0px 5px 0px;
+    margin: auto auto 60px auto;
+    border-bottom: 1px solid black;
+    width: 500px;
+}
+.Title2{
+    padding: 0px 0px 5px 0px;
+    margin: 50px auto 60px auto;
+    border-bottom: 1px solid black;
+    width: 500px;
+}
+.Title3{
+    padding: 0px 0px 5px 0px;
+    margin: 50px auto 60px auto;
+    border-bottom: 1px solid black;
+    width: 750px;
+}
+#Current{
+    color: white;
+}
+.Card > h3{
+    margin: 0px 8px 0px 8px;
+    max-width: 10px;
+}
+footer > p{
+    color: white;
+}
+.navText2:link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.674);
+    margin-right: 10px;
+}
+.navText2:visited{
+    color: rgb(255, 255, 255);
+}
+.navText2:hover{
+    transition: 0.35s;
+    color: white;
+}
+.navText2:active{
+    transition: 0s;
+    text-shadow: 0px 0px 5px white;
+}
+.navText2alt:link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.674);
+    margin-left: 45%;
+    font-size: 25px;
+}
+.navText2alt:visited{
+    color: white;
+}
+.navText2alt:hover{
+    transition: 0.35s;
+    color: white;
+}
+.navText2alt:active{
+    transition: 0s;
+    text-shadow: 0px 0px 5px white;
+}
+ul{
+    display: inline-block;
+    text-align: left;
+}
+ul > li{
+    background-color: rgba(255, 255, 255, 0.167);
+    margin-top: 5px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 20px;
+}
+p > span{
+    background-color: rgba(255, 255, 255, 0.167);
+    padding: 0px 10px 0px 10px;
+    border-radius: 20px;
+}
+.ulText{
+    background-color: rgba(255, 255, 255, 0.122);
+    opacity: 0.6;
+    margin-top: 5px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 20px;
+}
+.ulText:hover{
+    transition: 0.5s;
+    opacity: 1;
+}
+/*Images*/
+.img{
+    width: 55%;
+}
+.imgSquare{
+    width: 50%;
+}
+.imgalt{
+    width: 30%;
+}
+.imgSquarealt{
+    width: 20%;
+}
+.imgtop{
+    width: 30%;
+}
+.Card > img{
+    align-items: end;
+}
+
+
